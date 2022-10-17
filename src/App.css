@@ -195,6 +195,13 @@ section h3 {
   text-shadow: 1px 1px #fff;
   color: var(--black);
 }
+.hero .platform img {
+  height: 30%;
+  width: 20%;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
 .hero button {
   box-shadow: 1px 1px #000;
   color: var(--white);
@@ -486,6 +493,8 @@ label {
   outline: none;
   margin: 10px 0;
   border-radius: 5px;
+  text-shadow: none;
+  font-weight: 500;
 }
 .contact .left p {
   text-align-last: left;
@@ -544,12 +553,20 @@ footer p {
   .hero::after {
     height: 60vh;
   }
+  .hero .platform img {
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    padding: -30px;
+  }
   .about p {
     font-size: 15px;
   }
   .about button {
     font-weight: 500;
     text-shadow: #7d8792;
+    padding: 17px;
   }
   .services h3 {
     font-size: 20px;
