@@ -17,9 +17,6 @@ export const Hero = () => {
               <a href="https://play.google.com/store/apps/details?id=com.QuranIndo.App">
                 <img src="https://quranforandroid.com/assets/img/badge-googleplay-id.png" alt="" data-aos="fade-up-right" />
               </a>
-              <a href="https://itunes.apple.com/id/app/id1475973021">
-                <img src="https://quranforandroid.com/assets/img/badge-appstore-id.png" alt="" data-aos="fade-up-left" />
-              </a>
             </div>
           </div>
         ))}

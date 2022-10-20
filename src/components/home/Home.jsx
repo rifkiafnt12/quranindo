@@ -3,7 +3,7 @@ import { About } from "../pages/About";
 import { Counter } from "../pages/Counter";
 import { Hero } from "./Hero";
 import { Services } from "../pages/Services";
-import { Portfolio } from "../pages/Portfolio";
+import { Feature } from "../pages/Feature";
 import { Testimonials } from "../pages/Testimonials";
 import { Blog } from "../pages/Blog";
 import { Contact } from "../pages/Contact";
@@ -15,7 +15,7 @@ export const Home = () => {
       <About />
       <Services />
       <Counter />
-      <Portfolio />
+      <Feature />
       <Testimonials />
       <Blog />
       <Contact />

@@ -1,26 +1,26 @@
 import { Visibility } from "@mui/icons-material";
 import React, { useState } from "react";
 import { Heading } from "../common/Heading";
-import { portfolio } from "../data/dummydata";
+import { feature } from "../data/dummydata";
 
-const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))];
-export const Portfolio = () => {
-  const [list, setList] = useState(portfolio);
-  const [category, setCategory] = useState(allCategory);
+const allCategory = ["all", ...new Set(feature.map((item) => item.category))];
+export const Feature = () => {
+  const [list, setList] = useState(feature);
+  const [category] = useState(allCategory);
 
   const filterItems = (category) => {
-    const newItems = portfolio.filter((item) => item.category === category);
+    const newItems = feature.filter((item) => item.category === category);
     setList(newItems);
 
     if (category === "all") {
-      setList(portfolio);
+      setList(feature);
     }
   };
   return (
     <>
       <article>
         <div className="container">
-          <Heading title="Screenshot Layanan" />
+          <Heading title="Fitur Aplikasi" />
           <div className="catButton">
             {category.map((category) => (
               <button className="primaryBtn" onClick={() => filterItems(category)} data-aos="fade-down">

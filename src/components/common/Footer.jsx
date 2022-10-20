@@ -10,7 +10,7 @@ export const Footer = () => {
             <i data-aos="zoom-in">{item.icon}</i>
           </>
         ))}
-        <p data-aos="zoom-in">All Right Resceved 2022</p>
+        <p data-aos="zoom-in">Mobile Apps by AmalPost © 2022 | Kebijakan Privasi</p>
       </footer>
     </>
   );

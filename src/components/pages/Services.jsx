@@ -7,7 +7,7 @@ export const Services = () => {
     <>
       <section className="services">
         <div className="container">
-          <Heading title="Fitur Aplikasi" />
+          <Heading title="Layanan Aplikasi" />
           <div className="content grid3">
             {services.map((item, i) => (
               <div className="box" data-aos="flip-left">

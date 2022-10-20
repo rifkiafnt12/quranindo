@@ -1,22 +1,4 @@
-import {
-  Settings,
-  CropRotate,
-  ViewInAr,
-  PieChart,
-  Code,
-  BarChart,
-  CloudOutlined,
-  FavoriteBorder,
-  Public,
-  PersonOutlined,
-  AddLocationAltOutlined,
-  PhoneIphone,
-  EmailOutlined,
-  Facebook,
-  Twitter,
-  Instagram,
-  YouTube,
-} from "@mui/icons-material";
+import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material";
 
 export const navlink = [
   {
@@ -32,7 +14,7 @@ export const navlink = [
     text: "Services",
   },
   {
-    url: "/portfolio",
+    url: "/feature",
     text: "Feature",
   },
   {
@@ -63,7 +45,7 @@ export const about = [
   {
     desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
     desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    cover: "../images/port/indonesia-big.png",
+    cover: "../images/fitur/indonesia-big.png",
   },
 ];
 export const services = [
@@ -130,45 +112,45 @@ export const project = [
     title: "Reviews",
   },
 ];
-export const portfolio = [
+export const feature = [
   {
     id: 1,
-    cover: "../images/port/ss6.jpg",
+    cover: "../images/fitur/ss6.jpg",
     name: "Qur'an Indo",
     category: "Layanan",
     title: "Digital",
   },
   {
     id: 2,
-    cover: "../images/port/ss5.jpg",
+    cover: "../images/fitur/ss5.jpg",
     name: "Qur'an Indo",
     category: "Layanan",
     title: "Digital",
   },
   {
     id: 3,
-    cover: "../images/port/ss4.jpg",
+    cover: "../images/fitur/ss4.jpg",
     name: "Qur'an Indo",
     category: "Surat dan Juz",
     title: "Digital",
   },
   {
     id: 4,
-    cover: "../images/port/ss1.jpg",
+    cover: "../images/fitur/ss1.jpg",
     name: "Qur'an Indo",
     category: "Layanan",
     title: "Digital",
   },
   {
     id: 5,
-    cover: "../images/port/ss3.jpg",
+    cover: "../images/fitur/ss3.jpg",
     name: "Qur'an Indo",
     category: "Surat dan Juz",
     title: "Digital",
   },
   {
     id: 6,
-    cover: "../images/port/ss2.jpg",
+    cover: "../images/fitur/ss2.jpg",
     name: "Qur'an Indo",
     category: "Surat dan Juz",
     title: "Digital",
@@ -218,21 +200,6 @@ export const blog = [
     author: "Amal-Post",
     desc: "",
     cover: "./images/blog/artikle4.jpg",
-  },
-];
-export const contact = [
-  {
-    icon: <AddLocationAltOutlined />,
-    text1: ": Depok, Jawa Barat",
-  },
-  {
-    icon: <PhoneIphone />,
-    text1: ": +62 812-9516-1022",
-  },
-  {
-    icon: <EmailOutlined />,
-    text1: ": quranindo.help@gmail.com",
-    text2: ": https://amalpost.com/",
   },
 ];
 export const social = [
